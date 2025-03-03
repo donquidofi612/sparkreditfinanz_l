@@ -77,10 +77,12 @@
                                             <a href="index.html">Home</a>
                                         </li>
                                         <li>
-                                            <a href="#">Produkte</a>
+                                            <a href="contact.html">Kontakt</a>
                                         </li>
 
                                         <li><a href="formulaire.html">Services</a></li>
+
+                                        <li><a href="condition.html">Nutzungsbedingungen</a></li>
 
                                     </ul>
                                 </div>
@@ -210,7 +212,7 @@
                         <div class="calculator-form">
                             <h3 class="section-title mb-4">Kreditrechner</h3>
                             <div class="form-group">
-                                <label for="loanAmount" class="form-label">Kreditbetrag (FCFA):</label>
+                                <label for="loanAmount" class="form-label">Kreditbetrag (EUR):</label>
                                 <input type="number" id="loanAmount" class="form-control" placeholder="Geben Sie den Kreditbetrag ein">
                             </div>
                             <div class="form-group">
@@ -317,9 +319,9 @@
                     const totalPayment = monthlyPayment * loanTerm;
                     const totalInterest = totalPayment - loanAmount;
 
-                    document.getElementById('monthlyPayment').innerText = `Monatliche Rate: ${monthlyPayment.toFixed(2)} FCFA`;
-                    document.getElementById('totalPayment').innerText = `Gesamtbetrag: ${totalPayment.toFixed(2)} FCFA`;
-                    document.getElementById('totalInterest').innerText = `Gesamtzins: ${totalInterest.toFixed(2)} FCFA`;
+                    document.getElementById('monthlyPayment').innerText = `Monatliche Rate: ${monthlyPayment.toFixed(2)} EUR`;
+                    document.getElementById('totalPayment').innerText = `Gesamtbetrag: ${totalPayment.toFixed(2)} EUR`;
+                    document.getElementById('totalInterest').innerText = `Gesamtzins: ${totalInterest.toFixed(2)} EUR`;
                 }
             </script>
 
@@ -887,7 +889,7 @@
                             <div class="footer-widget widget-2">
                                 <h3 class="widget-header">Unternehmensinfos</h3>
                                 <ul class="footer-list">
-                                    <li><a href="#">Über uns</a></li>
+                                    <li><a href="about_us.html">Über uns</a></li>
                                     <li><a href="#">Ressourcenzentrum</a></li>
                                     <li><a href="#">Karriere</a></li>
                                     <li><a href="formulaire.html">Berater werden</a></li>
